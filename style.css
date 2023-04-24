@@ -1,0 +1,67 @@
+/* Gerais */
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.row {
+    margin: 0;
+}
+
+.container {
+    padding: 70px, 0px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+p, li {
+    color: black;
+    font-size: 14px;
+}
+
+/*Barra de navegação*/
+
+header, .navbar {
+    background-color: #842029;
+    padding-top: 10px;
+    
+    padding-right: 64px;
+}
+
+#nav-container {
+    padding-top: 0px;
+    padding-bottom: 0;
+}
+#logo {
+    margin-left: 64px;
+    height: 90px;
+}
+
+.navbar-brand {
+    padding: 0;
+    color: white;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+#navbar-links a{
+    color: white;
+}
+
+#linguagem-menu {
+    font-size: 18px;
+    margin-right: 250px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+#inicio-menu, #sobre-menu, #trabalhos-menu{
+    padding-right: 50px;
+}
+
+
+.navbar-expand-lg .navbar-nav .navbar-link {
+    padding: 1rem .8rem;
+} 
+
